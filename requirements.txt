@@ -1,0 +1,6 @@
+pandas==3.0.3
+numpy==2.5.1
+yfinance==1.5.1
+pyarrow==25.0.0
+requests==2.34.2
+lxml==6.1.1
