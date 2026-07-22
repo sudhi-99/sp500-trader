@@ -48,8 +48,11 @@ def load_cache(path: str = CACHE_PATH) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
+    import sys
+
+    period = sys.argv[1] if len(sys.argv) > 1 else "10y"
     tickers = load_universe()
-    print(f"Downloading {len(tickers)} tickers...")
-    history = download_history(tickers)
+    print(f"Downloading {len(tickers)} tickers ({period})...")
+    history = download_history(tickers, period=period)
     save_cache(history)
     print(f"Saved {len(history):,} rows across {history['ticker'].nunique()} tickers to {CACHE_PATH}")
