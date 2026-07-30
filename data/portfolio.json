@@ -1,16 +1,10 @@
 {
-  "cash": 14.099999999999909,
+  "cash": 306.0299999999999,
   "positions": {
     "DVA": {
       "shares": 1,
       "entry_price": 237.98,
       "stop_price": 224.15,
-      "entry_date": "2026-07-22"
-    },
-    "CVS": {
-      "shares": 2,
-      "entry_price": 110.23,
-      "stop_price": 105.32,
       "entry_date": "2026-07-22"
     },
     "PSX": {
@@ -23,12 +17,6 @@
       "shares": 10,
       "entry_price": 22.6,
       "stop_price": 21.76,
-      "entry_date": "2026-07-22"
-    },
-    "ADM": {
-      "shares": 1,
-      "entry_price": 87.0,
-      "stop_price": 82.55,
       "entry_date": "2026-07-22"
     }
   }
